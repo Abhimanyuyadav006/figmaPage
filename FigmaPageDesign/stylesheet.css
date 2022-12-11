@@ -1,0 +1,156 @@
+.BG_color {
+  background-color: #f6f8fb !important;
+}
+
+.dark_purple_color {
+  color: #02073e !important;
+}
+
+.light_purple_color {
+  color: #02073e !important;
+  opacity: 0.6 !important;
+}
+
+.dark_pink_color{
+    color: #8d448b !important;
+    
+}
+.dark_purple_bgcolor{
+  background-color: #8d448b;
+}
+.light_pink_color{
+  color: #343D48;
+}
+.btn_purple{
+  background-color: #8d448b;
+}
+
+
+/* navbar */
+
+.nav-link{
+  font-size: 12px;
+  color: #02073e !important;
+}
+.logo_image{
+  vertical-align: middle;
+  height: 1rem;
+}
+
+.navbar_btn{
+  font-size: small;
+  border: 2px solid #02073e;
+}
+
+@media only screen and (min-width: 767px){
+  .navbar_margin{
+    display: flex;
+  }
+
+  .navbar_brand{
+    padding-right: 7rem;
+    color: #02073e !important;
+    font-size: auto;
+  }
+
+  .navbar_form{
+    padding-left: 7rem;
+  }
+}
+
+/* container1  */
+@media only screen and (max-width: 700px){
+  .container1_heading{
+    font-weight: normal;
+  }
+}
+.container1_text{
+  font-size: 12px;
+  font-weight: 400;
+}
+.sponser_color{
+  margin: 0;
+  color: #969ea8;
+  font-size: 10px;
+}
+@media only screen and (max-width: 786px){
+  .sponser_image{
+    height: .9rem;
+  }
+}
+
+
+/* container2 */
+.container2_sec2_para{
+  font-size: 12px;
+  font-weight: 400;
+}
+.container2_sec2_form{
+  font-size: 12px;
+  font-weight: 400;
+}
+.container2_sec2_form a{
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.container_sec3_text{
+  font-size: 12px;
+  font-weight: 400;
+}
+.container2_sec3_link{
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.container2_sec4_text{
+  font-size: 10px;
+  font-weight: 400;
+}
+.container2_sec4_border{
+  border-top: 3px solid #8d448b;
+  border-radius: 5px;
+}
+
+.container2_sec5_text{
+  font-size: 12px;
+  font-weight: 600;
+}
+.container2_sec5_text2{
+  font-size: 11px;
+  font-weight: 400;
+}
+.container2_sec5_link{
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* container3 */
+.container3_sec1{
+  padding-bottom: 6rem;
+}
+.container3_sec1 .card:hover{
+  box-shadow: 0 0 2px black;
+  margin: -0.3rem;
+}
+.container3_sec2{
+  margin-top: 2rem;
+}
+
+/* container4 */
+.container4_sec1{
+  margin-top: -6rem;
+  
+}
+.container4_sec2{
+  list-style: none;
+  
+}
+.container4_sec2 .nav-link{
+  font-size: 12px;
+  color: #02073e;
+}
+
